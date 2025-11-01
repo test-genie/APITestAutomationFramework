@@ -1,0 +1,8 @@
+<suite name="SDET-Suite">
+    <test thread-count="5" name="RegressionTests">
+        <classes>
+            <class name="com.api.tests.LoginTest"/>
+            <class name="com.api.tests.GetUserProfileTest"/>
+        </classes>
+    </test>
+</suite>
