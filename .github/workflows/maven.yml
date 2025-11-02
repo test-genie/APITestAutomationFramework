@@ -46,11 +46,8 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: test-results
-        path: |
-          test-output/reports/
-          target/surefire-reports/
-          logs/
+        name: logs
+        path: logs/
     
     - name: Publish Test Report
       if: always()
